@@ -1,0 +1,32 @@
+# Patient data and generated datasets (never commit)
+data/
+outputs/
+*.csv
+*.csv.*
+*.tsv
+*.tsv.*
+*.parquet
+*.arrow
+*.feather
+*.h5
+*.hdf5
+*.sqlite
+*.db
+*.zip
+*.tar
+*.tar.*
+*.gz
+*.xlsx
+*.xls
+*.pkl
+*.pickle
+*.log
+# Local environment and credentials
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.ipynb_checkpoints/
+.DS_Store
